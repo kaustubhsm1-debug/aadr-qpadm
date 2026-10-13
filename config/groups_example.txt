@@ -1,0 +1,150 @@
+# AADR Group IDs to extract -- one per line, '#' starts a comment.
+# This example reproduces the reference set used by Narasimhan et al. (2019)
+# for South and Central Asia: modern South Asian cohorts, the Indus Periphery
+# Cline site clusters, Iranian-plateau Neolithic, Steppe MLBA, and deep
+# outgroups. Replace wholesale for a different question.
+#
+# Every label here must appear verbatim in column 14 (Group ID) of the AADR
+# .anno file. aadr_tfetch.py asserts that before fetching anything: a silent
+# non-match is the most expensive error in this pipeline (docs/PANEL_SELECTION.md).
+
+VLR
+Brahmin
+UBR
+RAJ
+ONG
+JAR
+ILA
+Irula
+BIR
+RIA
+Kapu
+Mala
+Madiga
+Relli_1
+Relli_2
+Yadava
+Khonda_Dora
+ITU
+BEN
+PUN
+GujaratiA
+GujaratiB
+GujaratiC
+GujaratiD
+STU
+STU-1
+STU-2
+BEB
+GIH
+PJL
+Tuscan
+CEU
+TSI
+FIN
+YRI
+Punjabi
+Sindhi_Pakistan
+Pathan
+Kalash
+Burusho
+Balochi
+Brahui
+Makrani
+Hazara
+Iran_GanjDareh_N
+Iran_HajjiFiruz_N
+Iran_TepeHissar_C
+Iran_SehGabi_C
+Iran_ShahriSokhta_BA1-1
+Iran_ShahriSokhta_BA2-2
+Iran_ShahriSokhta_BA3-3
+Turkmenistan_BA1-1
+Turkmenistan_BA
+Turkmenistan_BA-1
+Turkmenistan_BA2-2
+Turkmenistan_C-o
+Uzbekistan_BA
+Uzbekistan_BA1-1
+Uzbekistan_BA-o
+Tajikistan_BA
+Tajikistan_C
+Tajikistan_Mesolithic
+Iran_WezmehCave_N
+Iran_BeltCave_Mesolithic
+Iran_HotuCave_Mesolithic_HotuIIIb
+Iran_TepeAbdulHosein_N
+Iran_SehGabi_LN
+Iran_TepeGuran_PPN
+Iran_TepeGuran_EN_PPN
+Iran_ShahTepe_BA
+Iran_ShahTepe_LateC_EBA
+Iran_GolAfshanTepe_Bakun
+Iran_DinkhaTepe_BA_IA1-1
+Iran_DinkhaTepe_BA_IA2-2
+Iran_Hasanlu_IA
+Iran_HajjiFiruz_BA
+Iran_Hasanlu_MBA
+Georgia_KotiasKlde_Mesolithic
+Georgia_Satsurblia_LateUP
+Georgia_DzudzuanaCave_UP
+Russia_Chelyabinsk_MLBA_Sintashta
+Russia_Chelyabinsk_MLBA_Sintashta-1
+Russia_Chelyabinsk_MLBA_Sintashta-2
+Russia_MLBA_Sintashta
+Russia_Chelyabinsk_Petrovka
+Russia_Samara_LBA_Srubnaya
+Kazakhstan_MLBA_Alakul
+Kazakhstan_MLBA_Fedorovo
+Russia_Andronovo
+Russia_KrasnoyarskKrai_MLBA
+Russia_KrasnoyarskKrai_MLBA_Andronovo
+Kazakhstan_MLBA
+Pakistan_IA
+Pakistan_Historic
+Pakistan_Historic_H
+Pakistan_Medieval
+India_Roopkund-A
+India_Harappan
+Turkmenistan_C
+Mbuti
+Biaka
+Yoruba
+Papuan
+Han
+Dinka
+Karitiana
+Russia_Ust_Ishim_HG_published
+Russia_Kostenki14
+Russia_MA1_HG_published
+Italy_North_Villabruna_HG
+Malta_EBA
+ta in Siberia -- that is 
+.
+    
+, 
+, 
+,
+    
+, 
+, 
+,
+    
+, 
+,
+    # additional modern South Asian cohorts found via the structured fields:
+    # 
+ n=62 and 
+ n=18 carry no keyword a name search would hit;
+    # India_100BP is a Great Andamanese individual, a second AASI-proxy lineage.
+    
+, 
+, 
+,
+    
+, 
+, 
+, 
+, 
+, 
+, 

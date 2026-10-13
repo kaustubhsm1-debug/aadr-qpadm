@@ -1,0 +1,33 @@
+# Never commit genotype or sequence data of any kind.
+*.vcf
+*.vcf.gz
+*.bam
+*.cram
+*.fastq
+*.fastq.gz
+*.bed
+*.bim
+*.fam
+*.geno
+*.snp
+*.ind
+*.anno
+*.npz
+*.npy
+
+# Fetched reference panel and caches
+ref/
+work/
+f2/
+*.bin
+
+# Outputs
+*_fits.csv
+*_contrasts.csv
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/

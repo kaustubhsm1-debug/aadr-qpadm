@@ -1,0 +1,67 @@
+{
+  "_comment": [
+    "Reproduces the published Swat Valley Iron Age result (Narasimhan et al. 2019,",
+    "Science 365:eaat7487) as a positive control: a target with a known answer,",
+    "fitted with the same machinery you would use on a new one. Expect Steppe",
+    "~0.25 and a REJECTED fit -- see docs/VALIDATION.md for why that is the",
+    "honest outcome and what it tells you about the Indus Periphery source."
+  ],
+  "panel": "ref/aadr",
+  "sources": [
+    "Iran_ShahriSokhta_BA2-2",
+    {
+      "Steppe_C": [
+        "Kazakhstan_MLBA",
+        "Kazakhstan_MLBA_Alakul",
+        "Kazakhstan_MLBA_Fedorovo",
+        "Russia_KrasnoyarskKrai_MLBA",
+        "Russia_KrasnoyarskKrai_MLBA_Andronovo",
+        "Russia_Andronovo"
+      ]
+    },
+    "ONG"
+  ],
+  "rights": [
+    "Mbuti",
+    "Papuan",
+    "Han",
+    "Iran_GanjDareh_N",
+    "Georgia_KotiasKlde_Mesolithic",
+    "Turkey_N",
+    "Russia_Kostenki_UP",
+    "Karitiana"
+  ],
+  "targets": [
+    "Pakistan_IA",
+    "STU",
+    "ITU",
+    "ILA",
+    "Kalash",
+    "Pathan"
+  ],
+  "min_n": 2,
+  "min_n_pool": 4,
+  "block_mb": 5,
+  "contrasts": [
+    [
+      "STU",
+      "ITU"
+    ]
+  ],
+  "variants": {
+    "rights -Kostenki": {
+      "rights": [
+        "Mbuti",
+        "Papuan",
+        "Han",
+        "Iran_GanjDareh_N",
+        "Georgia_KotiasKlde_Mesolithic",
+        "Turkey_N",
+        "Karitiana"
+      ]
+    },
+    "blocks 10 Mb": {
+      "block_mb": 10
+    }
+  }
+}
